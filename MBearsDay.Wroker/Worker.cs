@@ -1,4 +1,4 @@
-namespace MBearsDay
+namespace MBearsDay.Wroker
 {
     public class Worker(ILogger<Worker> logger) : BackgroundService
     {
@@ -11,7 +11,6 @@ namespace MBearsDay
                     logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
                 }
                 await Task.Delay(1000, stoppingToken);
-                Console.ReadLine();
             }
         }
     }
