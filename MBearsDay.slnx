@@ -2,5 +2,9 @@
   <Folder Name="/Solution Items/">
     <File Path="InitialAdrTechSpecs.md" />
   </Folder>
-  <Project Path="MBearsDay/MBearsDay.csproj" />
+  <Project Path="MBearsDay.Core/MBearsDay.Core.csproj" />
+  <Project Path="MBearsDay.Infrastructure/MBearsDay.Infrastructure.csproj" />
+  <Project Path="MBearsDay.Persistence/MBearsDay.Persistence.csproj" />
+  <Project Path="MBearsDay.Services/MBearsDay.Services.csproj" />
+  <Project Path="MBearsDay.Wroker/MBearsDay.Wroker.csproj" />
 </Solution>
