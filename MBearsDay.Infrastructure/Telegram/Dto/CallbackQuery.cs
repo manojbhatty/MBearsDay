@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Text.Json.Serialization;
 
-namespace MBearsDay.Infrastructure.Telegram.Dto
+namespace MBearsDay.Infrastructure.Telegram.Dto;
+
+public class TelegramCallbackQueryDto
 {
-    public class CallbackQuery
-    {
-        public string Data { get; set; } = string.Empty;
-    }
+    [JsonPropertyName("id")]
+    public string Id { get; set; } = string.Empty;
+
+    [JsonPropertyName("data")]
+    public string? Data { get; set; }
 }
