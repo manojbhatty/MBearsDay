@@ -5,4 +5,5 @@
     public string? CallbackQueryId { get; set; }
     public long? ChatId { get; set; }
     public string? Text { get; set; }
+    public long? ReplyToMessageId { get; set; }
 }
